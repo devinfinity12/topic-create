@@ -4,7 +4,7 @@ pipeline {
     environment {
         KAFKA_BIN = '/etc/confluent-7.8.0/bin' // Replace with the correct path to Kafka binaries
         KAFKA_BROKER = 'localhost:9092' // Kafka broker address
-        TOPIC_NAME = 'my_new_topic-dev' // Topic name to create
+        TOPIC_NAME = 'mydev' // Topic name to create
         PARTITIONS = 3 // Number of partitions
         REPLICATION_FACTOR = 1 // Replication factor
     }
